@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    ../base.resource
-Test Setup        Open App
-Suite Teardown    Fechar app
+Test Setup       Open App
+Test Teardown    Fechar app
 
 *** Test Cases ***
 CT001: Acessar App e preencher os dados corretamente

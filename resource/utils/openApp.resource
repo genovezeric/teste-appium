@@ -12,7 +12,6 @@ ${MSG_MODAL}        com.britania_eric.maestroapp:id/alertTitle
 
 *** Keywords ***
 Open App
-    
     Open Application    
     ...    remote_url=http://localhost:4723/wd/hub
     ...    automationName=UIAutomator2
@@ -44,7 +43,7 @@ Digitar o email invalido
     Input Text    ${INPUT_EMAIL}    ${EMAIL_INVALIDO}
     Log    ${EMAIL_INVALIDO}
 Digitar a senha invalida
-    ${SENHA_INVALIDA}    FakerLibrary.Random Number    5
+    ${SENHA_INVALIDA}    FakerLibrary.Random Number    6
     Input Text    ${INPUT_SENHA}    ${SENHA_INVALIDA}
     Log    ${SENHA_INVALIDA}
 
